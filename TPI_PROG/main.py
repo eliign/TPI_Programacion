@@ -100,7 +100,6 @@ def tiene_numero(texto):
             return True  # Encontró un número y devuelve true
     return False  # No encontró ningún número
 
-
 def ingresar_pais_continente(mensaje):
     # Para ingresar un input que contenga letras
     while True:
@@ -183,8 +182,6 @@ def alta_pais(lista_paises, ruta_csv):
     agregar_pais(lista_paises, nombre, poblacion, superficie, continente)
 
     guardar_datos_csv(ruta_csv, lista_paises)
-
-    print("    ✅ País agregado correctamente.\n")
 # Fin opción 1
 
 
@@ -219,12 +216,14 @@ def buscar_pais(lista_paises):
     # Función para buscar un país en la lista
 
     pais_buscado = ingresar_pais_continente(" - Nombre del país: ")
+    print()
     pais_encontrado = False
     
     for pais in lista_paises: #recorro cada diccionario
         
         if pais_buscado.lower() in pais["nombre"].lower(): # compruebo si algo de lo ingresado en pais_buscado coincide con algún valor de la key nombre. Ej: arg --> argentina | tina --> argentina
             pais_encontrado = True # Si encuentra coincidencias, cambio la bandera
+            print(f"    📍 País: {pais['nombre']}")
             print(f"    👥 Población: {pais['poblacion']}")
             print(f"    📏 Superficie: {pais['superficie']} km²")
             print(f"    🌍 Continente: {pais['continente']}")
@@ -295,6 +294,7 @@ def menu_filtrar_paises():
 
     while True:
         try:
+            print(">>> Formas de filtrado <<<")
             opcion = int(input(
                 "1- Por continente\n"
                 "2- Por rango de población\n"
@@ -621,5 +621,4 @@ while True:
         
     else:
         print(" \n🚩 ERROR: Ingresá una opción dentro del rango (1 a 7) \n")
-
 
