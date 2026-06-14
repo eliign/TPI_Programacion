@@ -13,8 +13,8 @@ Sistema de gestión de información sobre países desarrollado en Python. Permit
 
 ## 👥 Integrantes
 
-| Nombre | 
-|---|---|
+| Nombres | 
+
 | Calzada Candela Estefania | 
 | Garmendia Ruete Faustina Elisa | 
 ---
@@ -146,15 +146,15 @@ SUPERFICIE      PAÍS                 POBLACIÓN       CONTINENTE
 
 ---
 
-## 📄 Documentación
+## 📄 Documentación PDF
 
-[📎 Informe técnico (PDF)] *(insertar link)*
+https://drive.google.com/file/d/1gE8wS-f8jnyfsMtHs35nMDhhfz49IYwD/view?usp=sharing
 
 ---
 
 ## 🎥 Video demostración
 
-[▶️ Ver video explicativo] *(insertar link)*
+https://youtu.be/8nujeY_u16c
 
 ---
 
