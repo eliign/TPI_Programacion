@@ -13,7 +13,7 @@ Sistema de gestión de información sobre países desarrollado en Python. Permit
 
 ## 👥 Integrantes
 
-| Nombre | Participación |
+| Nombre | 
 |---|---|
 | Calzada Candela Estefania | 
 | Garmendia Ruete Faustina Elisa | 
